@@ -1,8 +1,8 @@
-# data_transmission
-数据接收server端（UDP）
+### 数据接收server端（UDP）
 
-> 本工程需要手动生成jar包，执行java -jar server.jar即可运行本工程。
-> 配置的日志目录为当前路径下logs里面，以天为周期，记录昨天的日志信息，第二天封装为log-debug.log+日期文件( eg : log-debug.log.2018-01-22).
+
+* 本工程需要手动生成jar包，执行java -jar server.jar即可运行本工程。
+* 配置的日志目录为当前路径下logs里面，以天为周期，记录昨天的日志信息，第二天封装为log-debug.log+日期文件( eg : log-debug.log.2018-01-22).
 
 接收的数据格式示例如下：
 ```
@@ -28,3 +28,6 @@ T1W-04.86C T1S00.72% Y1W-00.67C P1H0!o55 T3W+02.62C T3S00.84% Y3W+00.37C P3H07.7
     数字序号表示节点数量.
     
 ```
+### 关联项目
+* web页面( https://github.com/lhqs/IOT_SYSTEM ) ：基于Vue.js+Element UI+ECharts+axios +Nginx快速构建；
+* 物联完管理系统后台接口服务( https://github.com/lhqs/plant-rest ) ：SpringMVC + Spring + MyBatis + Maven + MySql + RESTful + Tomcat + 七牛云对象存储；
